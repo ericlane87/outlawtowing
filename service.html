@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services – Outlaw Towing | Charlotte, NC</title>
+
+    <style>
+        :root {
+            --bg-dark: #111827;
+            --bg-light: #f3f4f6;
+            --accent: #f59e0b;
+            --accent-dark: #d97706;
+            --text-light: #f9fafb;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            background: var(--bg-light);
+            color: #111827;
+        }
+
+        header {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 16px 22px;
+        }
+
+        .nav-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links a {
+            margin-left: 18px;
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 2rem;
+        }
+
+        .services-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            padding: 0 20px 40px;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            padding: 22px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+            transition: 0.2s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+        }
+
+        .service-card h3 {
+            margin-top: 0;
+            color: var(--accent-dark);
+        }
+
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta a {
+            background: var(--accent);
+            color: #111827;
+            padding: 14px 32px;
+            border-radius: 9999px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.2s;
+        }
+
+        .cta a:hover {
+            background: var(--accent-dark);
+        }
+
+        footer {
+            margin: 40px 0 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav-inner">
+        <strong>Outlaw Towing</strong>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html" style="color: var(--accent); font-weight: 700;">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</header>
+
+<h1>Our Towing & Roadside Services</h1>
+
+<div class="services-container">
+
+    <div class="service-card">
+        <h3>⚡ Emergency Towing (24/7)</h3>
+        <p>Fast, reliable towing anywhere in Charlotte and surrounding areas. Available day or night.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>🚗 Light & Medium Duty Towing</h3>
+        <p>Cars, SUVs, small trucks, motorcycles — safely handled and transported.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>🔧 Roadside Assistance</h3>
+        <p>Jump starts, lockouts, flat tire changes, battery issues, and quick fuel delivery.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>🏠 Private Property Tow-Away</h3>
+        <p>Remove unauthorized vehicles from residential or commercial property.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>🔐 Vehicle Lockout Service</h3>
+        <p>Locked out of your car? We offer safe, damage-free unlocks.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>💥 Accident Recovery</h3>
+        <p>Professional recovery and towing after collisions. We work with insurance.</p>
+    </div>
+
+</div>
+
+<div class="cta">
+    <a href="contact.html">Request Service</a>
+</div>
+
+<footer>
+    Outlaw Towing • Charlotte, NC • Fast • Reliable • 24/7 Service
+</footer>
+
+</body>
+</html>
